@@ -1,6 +1,6 @@
 The National Computer Science and Engineering Exit Exam prepared by the Ethiopian Ministry of Education is designed to assess the students' educational achievement in major areas of Computer Science and Engineering Program and ensure the student's knowledge domain satisfies the labor market requirements for newly graduates to be competent in said program.
 
-This exam separates competency areas into themes and courses; they are:
+This exam separates competency areas into **five(5)** themes and **fourteen(14)** courses; they are:
 ### Programming and Algorithms
 - [[Programming Fundamentals with C++]]
 - [[Data Structures and Algorithms]]
