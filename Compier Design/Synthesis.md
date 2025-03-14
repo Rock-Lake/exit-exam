@@ -1,0 +1,2 @@
+Synthesis, also known as [[Synthesis|back-end]] is the part of the compiler that construct the desired target program from the [[symbol table]] and [[intermediate representation]] of the analyzed source code.
+Synthesis consists of two phases; [[code optimizer]] and [[code generator]].

@@ -1,0 +1,3 @@
+A sequence of characters in the source program that matches the pattern for a token. For example: i, sum, int, for, ...
+ A set of lexemes that follow a particular rule is called pattern.
+ 
