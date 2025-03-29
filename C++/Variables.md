@@ -21,10 +21,14 @@ In C++, there are 3 categories of datatypes:
 **NB:** integral datatypes such as char, int, long and short have a range of positive and negative numbers. By using **unsigned** before the datatype, you can change the range to start from 0.
 The size of the portion of memory set aside for the variable depends on the datatype of the variable.
 
-Before a variable can be used in a program, it must first be declared. In C+, the syntax rule to declare a variable is ```dataType identifier;```. We can also assign a value to the variable using the [[Expression#^1b496d|assignment operator]] like this:
+Before a variable can be used in a program, it must first be declared. In C++, the syntax rule to declare a variable is ```dataType identifier;```. We can also assign a value to the variable using the [[Expression#^1b496d|assignment operator]] like this:
 ```C++
 dataType identifier = expression;
 //or
 dataType identifier;
 variable = expression;
 ```
+
+Some data must stay the same throughout the program. In C++, you can use a **named constant** to instruct the program to mark memory locations in which data is stored unchanged throughout the program's execution. The syntax to declare a named constant is `const dataType IDENTIFIER = value;`^098fda
+
+**NB:** when defining a constant floating-point number, the value must be written with 'f' at the end. For example; `const float PI = 3.1415f`

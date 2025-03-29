@@ -14,6 +14,7 @@ Problems that occur day-to-day can be solved by computers in various ways. Howev
 	- a user manual of the program's usage
 Now that we have a basic understanding of solving a problem through a program, let us see its implementation through C++.
 
+# C++
 C++ is a [[Compiler Design|compiler]]-based programming language, this means that any changes in the code requires the entire program to be translated into a machine-compatible executable program.
 
 The structure of a C++ program can be easily explained using a simple example;
@@ -46,7 +47,7 @@ int main()
 }
 ```
 
-This program is nice and all, but it does not do anything other than printing [[strings]]. Let's improve that by introducing [[Variables|variables]].
+This program is nice and all, but it does not do anything other than printing [[Strings|strings]]. Let's improve that by introducing [[Variables|variables]].
 
 ```C++
 #include<iostream>
@@ -95,3 +96,4 @@ int main()
 }
 
 ```
+This program computes the area and a perimeter of a rectangle with 6 units of length and 4 units of length. To compute a rectangle of a different length, a programmer must change the value of length and width of the program. This doesn't account for the average user who doesn't know C++ syntax. To change this, we require an [[Statements|input statement]].

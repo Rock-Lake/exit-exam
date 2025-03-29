@@ -1,4 +1,4 @@
-An expression is a statement that computes and returns a value. It is made up or **operators, operands** in the form of [[Constants|constants]] or [[Variables|variables]].
+An expression is a statement that computes and returns a value. It is made up or **operators, operands** in the form of [[Variables#^098fda|constants]] or [[Variables|variables]].
 
 Operator is a language specific [[hierarchical analysis|syntactical token]] that requires an action to be taken. For any given operator there will at least be one operand.
 
@@ -15,7 +15,7 @@ In C++ syntax, there are 7 basic types of operators:
 - To get a floating point number from diving 2 [[Variables#^c07ee8|integrals]], you must [[#^2439e5|type cast]] one of the integers into a floating point.
 - The remainder operator expects both of its operands to be [[Variables#^c07ee8|integrals]]
 - It is illegal to divide by zero; there's a slight chance you will blow the machine up
-- It is possible to compare char and the memory addresses of [[strings]]
+- It is possible to compare char and the memory addresses of [[Strings|strings]]
 - adding increment/decrement operator in prefix form changes the variable before the outcome is used in the expression while postfix form affects the variable after the expression is valued.
 
 When combining multiple operators in one expression, there's a precedence of operators that is followed unless a parenthesis is used to indicate order. 
@@ -33,6 +33,6 @@ When combining multiple operators in one expression, there's a precedence of ope
 | Assignment    |                | =, +=,-=, \*=, /= ,%= |
 If the operators are in the same precedence, then the operation is performed right-to-left.
 
-When evaluating an [[#^e1dedc|arithmetic expression]] of values with different data types, the program implicitly converts one datatype to another for easier execution; this is called *implicit type coercion*. To avoid implicit type conversion, C++ provides explicit type conversion through a cast operator. The cast operator, also known as type casting can be written as `static_cast<dataTypeName(expression)` ^2439e5
+When evaluating an [[#^e1dedc|arithmetic expression]] of values with different data types, also known as *mixed expressions*, the program implicitly converts one datatype to another for easier execution; this is called *implicit type coercion*. To avoid implicit type conversion, C++ provides explicit type conversion through a cast operator. The cast operator, also known as type casting can be written as `static_cast<dataTypeName(expression)` ^2439e5
 
 In addition to basic operators, some C++ libraries [[overload]] symbols to perform special actions. The most used are `<<`, referred to as *stream insertion operator* and `>>` known as *stream extraction operator* ^b761c5
