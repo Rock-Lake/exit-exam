@@ -96,4 +96,73 @@ int main()
 }
 
 ```
-This program computes the area and a perimeter of a rectangle with 6 units of length and 4 units of length. To compute a rectangle of a different length, a programmer must change the value of length and width of the program. This doesn't account for the average user who doesn't know C++ syntax. To change this, we require an [[Statements|input statement]].
+This program computes the area and a perimeter of a rectangle with 6 units of length and 4 units of length. To compute a rectangle of a different length, a programmer must change the value of length and width of the program. This doesn't account for the average user who doesn't know C++ syntax. To change this, we require an [[Statements#^e3f3b6|input statement]].
+```C++
+#include <iostream>
+
+using namespace std;
+int main()
+{
+//Variable declarations. A statement such as instructs the system to allocate memory space and name it length.
+double length;
+double width;
+double area;
+double perimeter;
+
+cout << "Program to compute and output the perimeter and " << "area of a rectangle." << endl;
+cout << "Please input length and width of the rectangle with spaces in between:";
+//Input statement. This statement instructs the computer to take input from the keyboard and store it in the memory space length and width respectively
+cin >>length >> width;
+
+perimeter = 2 * (length + width);
+//Assignment statement. This statement instructs the system to evaluate the expression length * width and store the result in the memory space area.
+area = length * width;
+
+//Output statements. An output statement instructs the system to display results.
+cout << "Length = " << length << endl;
+cout << "Width = " << width << endl;
+cout << "Perimeter = " << perimeter << endl;
+cout << "Area = " << area << endl;
+
+return 0;
+
+}
+```
+This program computes the area and perimeter of a rectangle of any size. However, this also means that it computes negative area and perimeter if given negative length and/or width. To solve that particular problem, we require a [[Statements#^d2fe3e|selection statement]].
+```C++
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	//Variable declarations. A statement such as instructs the system to allocate memory space and name it length.
+	double length;
+	double width;
+	double area;
+	double perimeter;
+	
+	cout << "Program to compute and output the perimeter and " << "area of a rectangle." << endl;
+	cout << "Please input length and width of the rectangle with spaces in between:";
+	
+	cin >>length >> width;
+	//This condition checks if either value of length or width is less than or equal to 0
+	if (length <= 0 || width <=0)
+	{
+		cout << "Area and Perimeter are Zero\n";
+		return 0;
+	}
+	
+	perimeter = 2 * (length + width);
+	
+	area = length * width;//Assignment statement. This statement instructs the system to evaluate the expression length * width and store the result in the memory space area.
+	
+	cout << "Length = " << length << endl;
+	cout << "Width = " << width << endl;
+	cout << "Perimeter = " << perimeter << endl;
+	cout << "Area = " << area << endl;
+	
+	//Output statements. An output statement instructs the system to display results.
+	return 0;
+}
+```
