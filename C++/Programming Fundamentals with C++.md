@@ -35,19 +35,25 @@ This program, called **hello-world.cpp** prints a "Hello World!" message on a co
 - **Statement:** the ```std::cout<<"Hello World!";``` statement has three parts: First, `std::cout`, which identifies the **st**andar**d** **c**haracter **out**put device (usually, this is the computer screen). Second, the [[Expression#^b761c5|insertion operator]] (`<<`), which indicates that what follows is inserted into `std::cout`. Finally, a sentence within quotes ("Hello world!"), is the content inserted into the standard output. Any C++ statement should end with a semi colon(;) to show the end of the statement.
 The standard C++ library has different elements, such as **cout**, **cin**. In order to improve the readability of a program, we can declare the standard C++ library within a [[namespace]], the name space std.
 
+## Comments Example
+
 ```C++
 //My second C++ program
 #include<iostream>
 using namespace std;
 int main()
 {
-	cout<<"Hello World!";
+	cout<<"Hello World!";//This is the single-line comment
 	cout<<"I'm a C++ Program";
+	/*
+	This is the multi-line comment
+	*/
 	return 0;
 }
 ```
 
 This program is nice and all, but it does not do anything other than printing [[Strings|strings]]. Let's improve that by introducing [[Variables|variables]].
+## Variables Example
 
 ```C++
 #include<iostream>
@@ -69,6 +75,8 @@ int main()
 }
 ```
 In this program called **area\_perimeter.cpp**, it stores 2 values of *length* and *width* and will compute the perimeter and area of a rectangle. To do that we need an [[Expression|arithmetic expression]].
+
+## Expression Example
 
 ```C++
 #include <iostream>
@@ -97,6 +105,8 @@ int main()
 
 ```
 This program computes the area and a perimeter of a rectangle with 6 units of length and 4 units of length. To compute a rectangle of a different length, a programmer must change the value of length and width of the program. This doesn't account for the average user who doesn't know C++ syntax. To change this, we require an [[Statements#^e3f3b6|input statement]].
+## Input Example
+
 ```C++
 #include <iostream>
 
@@ -129,6 +139,9 @@ return 0;
 }
 ```
 This program computes the area and perimeter of a rectangle of any size. However, this also means that it computes negative area and perimeter if given negative length and/or width. To solve that particular problem, we require a [[Statements#^d2fe3e|selection statement]].
+
+## Conditionals Example
+
 ```C++
 #include <iostream>
 
