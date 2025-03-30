@@ -8,7 +8,7 @@ In C++ syntax, there are 7 basic types of operators:
 3. **Logical Operator:** computes logical expressions and outputs a [[Variables#^c07ee8|boolean]] result. They are logical NOT(!), AND(&&) and OR(||).
 4. **Increment and Decrement Operators:** adds(++) and subtracts(--) a numerical value by 1. They can be added in prefix or postfix form and can affect the final result.
 5. **Assignment Operator:** written as (=), it takes the value on the right side-usually a constant-and applies it to the variable on the left side. It can be combined with an [[Expression#^e1dedc|arithmetic operator]] to write a shorthand expression of `x = x operator y` as `x operator= y` ^1b496d
-6. **Conditional Operator:** similar to a [[Conditional|conditional]], it returns a value based on a given condition. it is written as `x = (y relational_operator z ? y:z)`.
+6. **Conditional Operator:** similar to a [[Statements#^d2fe3e|conditional statement]], it returns a value based on a given condition. it is written as `x = (y relational_operator z ? y:z)`.
 7. **Sizeof() Operator:** it calculates the size of any data in its parenthesis in bytes.
 
 **NB**
@@ -17,6 +17,7 @@ In C++ syntax, there are 7 basic types of operators:
 - It is illegal to divide by zero; there's a slight chance you will blow the machine up
 - It is possible to compare char and the memory addresses of [[Strings|strings]]
 - adding increment/decrement operator in prefix form changes the variable before the outcome is used in the expression while postfix form affects the variable after the expression is valued.
+- The conditional operator can be nested.
 
 When combining multiple operators in one expression, there's a precedence of operators that is followed unless a parenthesis is used to indicate order. 
 
