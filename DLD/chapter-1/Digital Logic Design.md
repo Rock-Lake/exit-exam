@@ -24,11 +24,11 @@
 
 ## Advantages of Digital Systems
 
-1. **Easier Design**: [[Easier Design]]
-2. **Efficient Information Storage**: [[Efficient Information Storage]]
-3. **Greater Accuracy and Precision**: [[Greater Accuracy and Precision]]
-4. **Versatility through Programmable Operations**: [[Versatility through Programmable Operations]]
-5. **Less Affected by Noise**: [[Less Affected by Noise]]
+	1. **Easier Design**: [[Easier Design]]
+1. **Efficient Information Storage**: [[Efficient Information Storage]]
+2. **Greater Accuracy and Precision**: [[Greater Accuracy and Precision]]
+3. **Versatility through Programmable Operations**: [[Versatility through Programmable Operations]]
+4. **Less Affected by Noise**: [[Less Affected by Noise]]
 
 ## Limitations of Digital Techniques
 
