@@ -102,7 +102,7 @@ Also known as *loops*, these statements repeat a series of instruction a number 
 		}
 		while(expression);
 		```
-## Jump Statements
+## **Jump Statements**
 These statements alter the flow of statements by either starting, stopping or skipping some sections ([[scope]]) of code. There are 4 types of jump statements: ^3c2bc1
 - **Break statement:** this statement causes an exit from [[#^4d5182|loops]] or [[#^3c2bc1|selections]], thus moving the [[scope]] of the program from the inner block to the outer. If `break` is used outside a loop or a selection, it will cause an error. ^44fdde
 - **Continue statement:** this statement causes the loop to end and start the next iteration. Just like [[#^44fdde|break]] statement, the `continue` statement can only work inside a [[#^4d5182|loop]]. 

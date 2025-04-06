@@ -88,8 +88,7 @@ int main()
 	double area;
 	double perimeter;
 	double length;
-	//Variable declarations. A statement such as instructs the system to allocate memory
-	space and name it length.
+	//Variable declarations. A statement such as instructs the system to allocate memory space and name it length.
 	cout << "Program to compute and output the perimeter and " << "area of a rectangle." << endl;
 	length = 6.0;//Assignment statement. This statement instructs the system to store 6.0 in the memory space length.
 	width = 4.0;
