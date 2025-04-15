@@ -34,7 +34,7 @@ Modern systems package OS kernels with other programs, providing an environment 
 - **Communications** - connection managers, web browsers, file transfer
 - **Background services** - daemons and subsystems.
 ## Computing Environment
-There are 4 different methods of implementing an operating system. They are:
+There are many different methods of implementing an operating system. They are:
 - **Traditional** - Office computers connected to a network to processes batch requests
 - [[Distributed Systems|Distributed]] - a collection of physically separate computers networked to share hardware and software resources
 - **Client-Server** - a collection of networked computers that are either resource providers or interfaces to access services and files.
