@@ -31,7 +31,7 @@ int main()
 This program, called **hello-world.cpp** prints a "Hello World!" message on a console. It has:
 - **Comment**: specifically a single line [[Comments|comment]] , the [[Compiler Design|compiler]] ignores it since it is for the programmer to write notes on the program with affecting anything else.
 - **Pre-processor:** it looks through the program for special keys called *pre-processor directives* before the [[Compiler Design|compiler]]. This directs the [[Compiler Design|compiler]]  to include a copy of files specified in the angle brackets; in this case its the ***iostream***  file in the C++ standard library. 
-- **Function:** any C++ program has a **main** function that is called automatically. This function has the type **int**, which means it will return a zero after the function finishes executing. The parenthesis is empty, thus having no arguments. More specifics can be explained in the [[functions]] section.
+- **Function:** any C++ program has a **main** function that is called automatically. This function has the type **int**, which means it will return a zero after the function finishes executing. The parenthesis is empty, thus having no arguments. More specifics can be explained in the [[Functions]] section.
 - **Statement:** the ```std::cout<<"Hello World!";``` statement has three parts: First, `std::cout`, which identifies the **st**andar**d** **c**haracter **out**put device (usually, this is the computer screen). Second, the [[Expression#^b761c5|insertion operator]] (`<<`), which indicates that what follows is inserted into `std::cout`. Finally, a sentence within quotes ("Hello world!"), is the content inserted into the standard output. Any C++ statement should end with a semi colon(;) to show the end of the statement.
 The standard C++ library has different elements, such as **cout**, **cin**. In order to improve the readability of a program, we can declare the standard C++ library within a [[namespace]], the name space std.
 
@@ -178,3 +178,4 @@ int main()
 	return 0;
 }
 ```
+Now this program is responsive and can calculate the area and perimeter of any practical rectangle. So can we make it do more? Yes, but it will be messy to debug the many lines of different code we want to add. However, there's a solution; divide the program into block of code with specific roles, also known as a [[Functions|function]].

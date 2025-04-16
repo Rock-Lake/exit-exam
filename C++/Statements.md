@@ -121,4 +121,4 @@ label_2:
 	cout<< "label 2";
 ```
 will jump to the program under label 2 if test is false.
-- **Return statement:** this statement returns the result of a [[functions|function]] to its caller.
+- **Return statement:** this statement returns the result of a [[Functions|function]] to its caller.
