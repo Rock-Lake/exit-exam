@@ -38,12 +38,12 @@
     2. **Processing**: Digital data manipulation[[processing]]
     3. **DAC**: Digital-to-Analog Conversion[[DAC]]
 
- Binary Logic Gates
+ Binary Logic Gates[[binary logic gates]]
 
 - Basic building blocks of digital circuits.
 - Operate on binary numbers (0s and 1s).
 
-## Digital Signals
+# Digital Signals 
 
 - Use two voltage levels to represent binary digits.
     - **Positive Logic**: 1 = HIGH (+5V), 0 = LOW (0V).
