@@ -4,7 +4,7 @@ Depending on the language used, a symbol table can be used to:
 - verify if a variable has been declared
 - implement [[type checking]] 
 - find out the scope of a name(scope resolution)
-Symbol tables are implemented as lists, binary search trees, hash tables depending on the amount of data that the compiles has to handle. These data structures are used because they have the following methods/functions:
+Symbol tables are implemented as [[List|lists]], [[Tree|binary search trees]], hash tables depending on the amount of data that the compiles has to handle. These data structures are used because they have the following methods/functions:
 - insert() - used frequently during [[Analysis|analysis]];it stores the value, state, scope and type about the [[symbol]]. 
 - lookup() - checks the symbol exists in the symbol table. This can vary across programming languages but it either returns 0 if it didn't exist or returns the symbol's stored attribute.
 Compilers maintain two types of symbol tables to differentiate scopes in the program. They are:

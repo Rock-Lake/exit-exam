@@ -1,13 +1,11 @@
 This course focuses on teaching the foundations of writing clean and efficient code using well-understood and tested techniques.
 
 # Introduction
-
 The measure of a program's performance is usually time and space(memory) usage. The time usage, also defined as execution speed; is the amount of time it takes the program to compute instructions. Ignoring hardware restrictions, some programs can perform faster even running on the same hardware and working the same problem. This is usually depend on how the program organizes the data required to solve the problem and the sequence of steps it took to solve the problem.
 # Data Structures
-
 Any form of information processing or communication requires data to be stored and accessed when needed. A general abstract of a data storage is that of a **Container Abstract Data Type**. A container describes data structures that store and give access to objects. A container can be created, copied, destroyed, emptied of its objects, queried of the number of objects in it, ask its capacity, merge or intersect with another container.
 
-Many data structures are used(operated) in 4 basic ways:
+Many data structures are used(operated) in 5 basic ways:
 - **Read** - look at each object in the data structure ^70d2a5
 - **Search** - check for a object within the data structure ^e63471
 - **Insert** - Add a new object to the data structure ^8c0303
@@ -26,7 +24,6 @@ There are different data structure depending on the memory allocation. They are:
 - Linked allocation such as [[Linked List|Linked Lists]], [[Tree|Trees]], [[Graph|Graphs]], [[Deque|Deques]] 
 - Indexed allocation such as [[Vector|Vectors]], [[Inode|Inodes]] 
 # Algorithm Analysis
-
 An algorithm is a set of instructions for completing a specific task. The goal of algorithm analysis is to take a block and determine its efficiency. However we can't label algorithms on the number of steps, since the number of steps an algorithm takes can't be a single number due to the changing size of data the algorithms has to compute. ^854a22
 
 The best way to compute an algorithm's efficiency is to determine its asymptotic runtime or asymptotic memory. Asymptotic runtime is a function that determines the expected number of steps to ever increasing data size to compute. Described as Big O notation, it describes the worst case of an algorithm execution unless specified otherwise. 
@@ -50,3 +47,9 @@ For example:
 - O(N/2) will be O(N)
 - O($N^2 + 10$) would be expressed as $O(N^2)$
 - O(100N) would expressed as O(N)
+
+To fully visualize the impact of asymptotic runtime on the efficiency of programs, we can see some popular algorithms:
+- Sorting
+	- [[Bubble Sort]]
+	- [[Selection Sort]]
+	- [[Insertion Sort]]
