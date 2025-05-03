@@ -4,7 +4,7 @@ notes made for Adama Science and Technology University Exit Exam for Computer Sc
 Start with [[Introduction]].md to read and update the notes.
 
 ## Installation
-1. Download and Install [Obsidian](https://http://obsidian.md/)
+1. Download and Install [Obsidian](https://obsidian.md/)
 2. Download a zip file of this repository
 3. Unzip the repository in your preferred location
 4. Open Obsidian and select "Open folder as vault"
