@@ -1,34 +1,21 @@
- ### **Chapter 1: Introduction to Digital Systems**
+# Introduction
 
-## Overview
+Digital systems are vital in various fields like science, technology, and business due to their ability to store, process and communicate discrete information accurately. Electronic systems use one of two types of signals, each having their own benefits and challenges.
 
-- Digital systems are vital in various fields like science, technology, and business.
-- Quantities can be represented in two ways: **analog** and **digital**.
+| Type                   |       Analog Signals       | Digital Signals |
+| :--------------------- | :------------------------: | :-------------: |
+| Data representation    | continious (Ex: 1.2478...) | discrete (1,0)  |
+| Accuracy               |           medium           |      high       |
+| Precision              |            low             |      high       |
+| Noise sensitivity      |            high            |       low       |
+| Real-world application |           simple           |    moderate     |
 
-## Analog vs. Digital Systems
-
-### Analog Representation
-
-- Continuous representation (e.g., voltage, current).
-- Example: Analog watches show time continuously.
-
-### Digital Representation
-
-- Discrete representation using symbols (digits).
-- Example: Digital watches show time in steps (e.g., every minute).
-
-### Key Differences
-
-- **Analog**: Continuous
-- **Digital**: Discrete
-
-## Advantages of Digital Systems
-
-	1. **Easier Design**: [[Easier Design]]
-1. **Efficient Information Storage**: [[Efficient Information Storage]]
-2. **Greater Accuracy and Precision**: [[Greater Accuracy and Precision]]
-3. **Versatility through Programmable Operations**: [[Versatility through Programmable Operations]]
-4. **Less Affected by Noise**: [[Less Affected by Noise]]
+Digital systems can have the following advantages:
+1. **Easier Design**: its binary representation simplifies circuit design and troubleshooting, making it more straightforward to implement logic functions.
+2. **Efficient Information Storage**: its usage of [[semiconductor memory]] allows for efficient storage of information in a compact form.
+3. **Greater Accuracy and Precision**: The discrete property of digital signals allows for precise and accurate data for measurement and processing.
+4. **Versatility through Programmable Operations**: digital systems are versatile in changing its function by simply changing the program used to operate the system.
+5. **Less Affected by Noise**: The discrete property of digital signals allows for signal integrity against noise.
 
 ## Limitations of Digital Techniques
 
