@@ -179,3 +179,43 @@ int main()
 }
 ```
 Now this program is responsive and can calculate the area and perimeter of any practical rectangle. So can we make it do more? Yes, but it will be messy to debug the many lines of different code we want to add. However, there's a solution; divide the program into block of code with specific roles, also known as a [[Functions|function]].
+
+## Functions example
+
+```C++
+#include <iostream>
+
+using namespace std;
+
+void rectangleArea(double length, double width){
+    cout << "Area = " << length*width << endl;
+}
+void rectanglePerimeter(double length, double width){
+   
+    cout << "Perimeter = " << 2*(length+width) << endl;
+}
+int main(){
+    //Variable declarations. A statement such as instructs the system to allocate memory space and name it length.
+	double length;
+	double width;
+
+    cout << "Program to compute and output the perimeter and " << "area of a rectangle." << endl;
+	cout << "Please input length and width of the rectangle with spaces in between:";
+	
+	cin >> length >> width;
+    //This condition checks if either value of length or width is less than or equal to 0
+    if (length <= 0 || width <=0)
+	{
+		cout << "Area and Perimeter are Zero\n";
+		return 0;
+	}
+
+    cout << "Length = " << length << endl;
+	cout << "Width = " << width << endl;
+    rectangleArea(length, width);
+    rectanglePerimeter(length,width);
+    
+	return 0;
+}
+```
+

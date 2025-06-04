@@ -4,7 +4,7 @@ C++ provides different forms of statements:
 ## **Simple Statement**
 it is a computation that ends with a semicolon. It can be a declaration, an expression or a null statement as long as it ends with a semicolon. An example of a simple statement is a *input statement* where the computer is getting data from the keyboard. ^e3f3b6
 ## **Compound Statement** 
-It is a unit of code consisting of a one or more simple statements, usually a declaration, definition and other statement enclosed in a brace. This allows to put multiple statements in one space or introduce a new [[scope]].
+It is a unit of code consisting of a one or more simple statements, usually a declaration, definition and other statement enclosed in a brace. This allows to put multiple statements in one space or introduce a new [[Functions#^c98713|scope]].
 ```
 statement
 {
@@ -103,7 +103,7 @@ Also known as *loops*, these statements repeat a series of instruction a number 
 		while(expression);
 		```
 ## **Jump Statements**
-These statements alter the flow of statements by either starting, stopping or skipping some sections ([[scope]]) of code. There are 4 types of jump statements: ^3c2bc1
+These statements alter the flow of statements by either starting, stopping or skipping some sections ([[Functions#^c98713|scope]]) of code. There are 4 types of jump statements: ^3c2bc1
 - **Break statement:** this statement causes an exit from [[#^4d5182|loops]] or [[#^3c2bc1|selections]], thus moving the [[scope]] of the program from the inner block to the outer. If `break` is used outside a loop or a selection, it will cause an error. ^44fdde
 - **Continue statement:** this statement causes the loop to end and start the next iteration. Just like [[#^44fdde|break]] statement, the `continue` statement can only work inside a [[#^4d5182|loop]]. 
 - **Go-To statement:** this statement causes the program to jump to the part of the program labeled in the go to statement. For example:

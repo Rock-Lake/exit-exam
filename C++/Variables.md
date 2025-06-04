@@ -9,7 +9,7 @@ The identifier of a variable has a few rules:
  ```
  C++ variables are **case sensitive**, that means identifiers written in capital letters is not the same as written in small letters.
 
-The datatype of a variable is a set of values that can be manipulated with a set of allowed operations.
+The datatype of a variable is a set of values that can be manipulated with a set of allowed operations. ^c136b3
 
 In C++, there are 3 categories of datatypes:
 - Simple data type: ^c07ee8

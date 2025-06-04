@@ -1,5 +1,5 @@
 # Introduction
-A database is a very large, integrated, organized collection of information stored in a [[#^1704ab|database management system]] .
+A database is a very large, integrated, organized collection of information stored in a [[#^1704ab|database management system]].
 This system was developed after passing through 3 levels of development for storing data:
 - **Manual Approach:** files are written in paper, labeled and stored in cabinets. Insertion and retrieval is done manually, file-by-file, cabinet-by-cabinet. This is prone to error, difficult to change and cross-reference.
 - **File based Approach:** files are created and managed by applications in [[Distributed Systems|distributed systems]]. This leads to data being duplicated or corrupted due to inconsistent data update, a.k.a, *update anomalies*.

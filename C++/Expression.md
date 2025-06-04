@@ -36,4 +36,4 @@ If the operators are in the same precedence, then the operation is performed rig
 
 When evaluating an [[#^e1dedc|arithmetic expression]] of values with different data types, also known as *mixed expressions*, the program implicitly converts one datatype to another for easier execution; this is called *implicit type coercion*. To avoid implicit type conversion, C++ provides explicit type conversion through a cast operator. The cast operator, also known as type casting can be written as `static_cast<dataTypeName(expression)` ^2439e5
 
-In addition to basic operators, some C++ libraries [[overload]] symbols to perform special actions. The most used are `<<`, referred to as *stream insertion operator* and `>>` known as *stream extraction operator* ^b761c5
+In addition to basic operators, some C++ libraries [[Functions#^1ec80e|overload]] symbols to perform special actions. The most used are `<<`, referred to as *stream insertion operator* and `>>` known as *stream extraction operator* ^b761c5

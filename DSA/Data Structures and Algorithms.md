@@ -3,7 +3,7 @@ This course focuses on teaching the foundations of writing clean and efficient c
 # Introduction
 The measure of a program's performance is usually time and space(memory) usage. The time usage, also defined as execution speed; is the amount of time it takes the program to compute instructions. Ignoring hardware restrictions, some programs can perform faster even running on the same hardware and working the same problem. This is usually depend on how the program organizes the data required to solve the problem and the sequence of steps it took to solve the problem.
 # Data Structures
-Any form of information processing or communication requires data to be stored and accessed when needed. A general abstract of a data storage is that of a **Container Abstract Data Type**. A container describes data structures that store and give access to objects. A container can be created, copied, destroyed, emptied of its objects, queried of the number of objects in it, ask its capacity, merge or intersect with another container.
+Any form of information processing or communication requires data to be stored and accessed when needed. A general abstract of a data storage is that of a **Container Abstract Data Type**. A container describes data structures that store and give access to objects. A container can be created, copied, destroyed, emptied of its objects, queried of the number of objects in it, ask its capacity, merge or intersect with another container. ^035aa0
 
 Many data structures are used(operated) in 5 basic ways:
 - **Read** - look at each object in the data structure ^70d2a5
