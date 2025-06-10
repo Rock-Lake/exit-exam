@@ -1,0 +1,1 @@
+Objects is a model of any entity with specific state, behavior and identity. This object is an instance of a class that is available during runtime.The variables inside an object are called **instance variables** and the functions are called **methods**.

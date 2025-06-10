@@ -9,19 +9,19 @@ Many data structures are used(operated) in 5 basic ways:
 - **Read** - look at each object in the data structure ^70d2a5
 - **Search** - check for a object within the data structure ^e63471
 - **Insert** - Add a new object to the data structure ^8c0303
-- **Update** - modify a object in the data structure ^d879d9
-- **Delete** - remove a object from the data structure ^2d8491
+- **Update** - modify an object in the data structure ^d879d9
+- **Delete** - remove an object from the data structure ^2d8491
 
 Containers can be split into general classifications:
 - **Simple containers** - which store individual objects
-- **Associative Containers** - which store keys and their records. For example; [[Database Systems|databases]] 
+- **Associative Containers** - which store keys and their records. For example; [[Database Systems|databases]], dictionaries...etcetera
 We will focus on simple containers and their data structures.
 
 There are many data structures used to efficiently store, access and modify data; each with their own strengths and weaknesses. Choosing a data structure, not only change how the program interacts with the data, but also drastically affect the program's performance.
 
 There are different data structure depending on the memory allocation. They are:
 - Contiguous allocation such as [[Array|Arrays]], [[List|Lists]], [[Stack|Stacks]], [[Queue|Queues]] 
-- Linked allocation such as [[Linked List|Linked Lists]], [[Tree|Trees]], [[Graph|Graphs]], [[Deque|Deques]] 
+- Linked allocation such as [[Linked List|Linked Lists]], [[Tree|Trees]], [[Graph|Graphs]],
 - Indexed allocation such as [[Vector|Vectors]], [[Inode|Inodes]] 
 # Algorithm Analysis
 An algorithm is a set of instructions for completing a specific task. The goal of algorithm analysis is to take a block and determine its efficiency. However we can't label algorithms on the number of steps, since the number of steps an algorithm takes can't be a single number due to the changing size of data the algorithms has to compute. ^854a22
@@ -49,7 +49,12 @@ For example:
 - O(100N) would expressed as O(N)
 
 To fully visualize the impact of asymptotic runtime on the efficiency of programs, we can see some popular algorithms:
+- Searching
+	- Linear Search
+	- Binary Search
 - Sorting
 	- [[Bubble Sort]]
 	- [[Selection Sort]]
 	- [[Insertion Sort]]
+	- [[Shell Sort]]
+	- [[Quick Sort]]

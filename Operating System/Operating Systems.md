@@ -22,7 +22,7 @@ A software generated interrupt caused by an error/user request is called a **tra
 
 Modern OS are interrupt driven, meaning the system reacts to processes, else wait for something to happen.
 
-To ensure proper program execution without affecting other processes, a **dual-mode** of operation is used. This separates user processes and kernel processes by attaching a *mode bit* to processes. User processes have mode-bit 1 and kernel processes have mode-bit 0. [[Process|Processes]] that require kernel-level access to computer hardware will use a [[System Calls|system call]] that changes the process' mode-bit using a [[#^f5c55f|trap]].
+To ensure proper program execution without affecting other processes, a **dual-mode** of operation is used. This separates user processes and kernel processes by attaching a *mode bit* to processes. User processes have mode-bit 1 and kernel processes have mode-bit 0. [[Process|Processes]] that require kernel-level access to computer hardware will use a [[System Calls|system call]] that changes the process' mode-bit using a [[#^f5c55f|trap]]. ^f4a871
 
 ## System Programs
 Modern systems package OS kernels with other programs, providing an environment for program development and execution. Some are user interfaces to [[System Calls|system calls]], while others are more complex. They can be divided into these categories:

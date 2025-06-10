@@ -1,5 +1,5 @@
 ### What is a compiler?
-- An executable program that translates a source code, usually written in a high level language, into an equivalent target code, which often is either machine code or intermediate code. During translation, any detected errors in the source program will be notified to the user.
+- An executable program that translates a source code, usually written in a high level language, into an equivalent target code, which often is either executable machine code or an intermediate code. During translation, any detected errors in the source program will be notified to the user.
 ### What are the different classification of compilers?
 - Compilers can be classified into [[single-pass]], [[multi-pass]], [[load-and-go]], [[debugging/optimizing]] depending on the method of construction or its functionality.
 ### What are the main parts of compilation?

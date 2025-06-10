@@ -1,0 +1,1 @@
+The instantiation of an object doesn't require the programmer to understand the underlying working of the class, simplifying its use. Classes that use this property called **abstraction** are known as [[Data Structures and Algorithms#^035aa0|Abstract Data Type]].
